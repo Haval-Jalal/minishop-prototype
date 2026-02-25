@@ -14,7 +14,13 @@ object-oriented modeling, UML, and user interface design can be connected
 into a small but coherent solution.
 
 ## 2. Stakeholders
+The system involves the following stakeholders:
 
+| Role      | Description | Goal |
+|-----------|------------|------|
+| Guest     | Unregistered visitor browsing the website | Explore available products |
+| Customer  | User interacting with products and cart | Add products to cart and simulate purchase intention |
+| Admin     | Person responsible for managing products | Create and maintain product information |
 ## 3. Requirements
 
 ### 3.1 Functional Requirements
