@@ -90,5 +90,15 @@ Postconditions:
 - The cart count reflects the updated number of items.
 
 ## 5. Change Notes
+During development, two scope-related changes were made:
+
+1. A payment system was initially considered but removed to maintain a clear and realistic project scope aligned with the assignment requirements.
+
+2. A more complex cart structure with multiple product pages was simplified into a single static product detail page to focus on modeling, interaction flow, and requirement traceability rather than technical complexity.
 
 ## 6. Risks & Limitations
+This prototype does not include a backend or database, meaning that all data is stored locally in the browser. If the browser storage is cleared, cart data will be lost.
+
+The system does not support authentication or real product management, which limits its applicability to demonstration purposes only.
+
+Since this is a static prototype, scalability and performance under heavy load have not been tested.
